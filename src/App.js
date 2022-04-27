@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          I'm gay and my iis small
+          
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="cum.town"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          I'm gay and my dick is small
         </a>
       </header>
     </div>
