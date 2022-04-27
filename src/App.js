@@ -11,7 +11,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="cum.town"
+          href="https://twitter.com/theonion/status/1049313525250871296?lang=en"
           target="_blank"
           rel="noopener noreferrer"
         >
