@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          I'm gay and my dick is small
+          Some worrying news
         </a>
       </header>
     </div>
