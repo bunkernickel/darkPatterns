@@ -1,51 +1,94 @@
-body {
-    font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
-  }
+.images{
+  width: 200px;
+  height: 80vh;
+  display:flex;
+  flex-basis: 100px;
+  flex-direction: column;
+  background-color: black;
+  justify-content:space-around;
+  align-items: baseline;
+  border: grey;
+  border-style: double;
+}
+
+.moreShoes{
+  width: 200px;
+  height: 40vh;
+  display:flex;
+  flex-basis: 100px;
+  flex-direction: column;
+  background-color: black;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.shoeIcon{
+  height: 150px;
+  width: 150px;
+  border-radius: 25%;
+  border: white;
+}
+
+.page {
+  text-align: center;
+  background-image: url(CloudsBackground.jpg);
+}
+.page-header {
   
-  ol, ul {
-    padding-left: 30px;
+  top: 0;
+  bottom: auto;
+  height: 70px;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 5vmin);
+  color: white;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.restOfPage {
+  display: flex;
+  height: 100vh;
+  flex-direction:row;
+  width: 100vw;
   
-  .board-row:after {
-    clear: both;
-    content: "";
-    display: table;
+  justify-content: space-around;
+}
+
+.terms {
+  margin-top: 120px
+}
+
+.terms p {
+  font-size: calc(10px + 1vmin);
+}
+.textarea {
+  overflow-y: scroll;
+  width: 800px;
+  height: 100px;
+  resize: none; 
+  
+  
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  
-  .status {
-    margin-bottom: 10px;
+  to {
+    transform: rotate(360deg);
   }
-  
-  .square {
-    background: #fff;
-    border: 1px solid #999;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 34px;
-  }
-  
-  .square:focus {
-    outline: none;
-  }
-  
-  .kbd-navigation .square:focus {
-    background: #ddd;
-  }
-  
-  .game {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .game-info {
-    margin-left: 20px;
-  }
-  
+}
