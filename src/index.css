@@ -1,31 +1,35 @@
 .images{
-  width: 200px;
+  width: 250px;
   height: 80vh;
   display:flex;
-  flex-basis: 100px;
-  flex-direction: column;
-  background-color: black;
-  justify-content:space-around;
-  align-items: baseline;
-  border: grey;
-  border-style: double;
-}
-
-.moreShoes{
-  width: 200px;
-  height: 40vh;
-  display:flex;
-  flex-basis: 100px;
   flex-direction: column;
   background-color: black;
   justify-content:space-around;
   align-items: center;
+  border: lightgrey;
+  border-style: double;
+  border-width: 4px;
+  margin: 20px;
+}
+
+.moreShoes{
+  width: 250px;
+  height: 40vh;
+  display:flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content:space-around;
+  align-items: center;
+  border: lightgrey;
+  border-style: double;
+  border-width: 4px;
+  margin: 20px;
 }
 
 .shoeIcon{
-  height: 150px;
-  width: 150px;
-  border-radius: 25%;
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
   border: white;
 }
 
@@ -34,7 +38,6 @@
   background-image: url(CloudsBackground.jpg);
 }
 .page-header {
-  
   top: 0;
   bottom: auto;
   height: 70px;
@@ -42,8 +45,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 5vmin);
-  color: white;
+  color: darkgray;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -64,10 +70,12 @@
   height: 100vh;
   flex-direction:row;
   width: 100vw;
-  
-  justify-content: space-around;
+  justify-content: center;
 }
 
+.restOfPage label{
+  background-color: beige;
+}
 .terms {
   margin-top: 120px
 }
@@ -80,8 +88,7 @@
   width: 800px;
   height: 100px;
   resize: none; 
-  
-  
+  background-color: beige; 
 }
 
 @keyframes App-logo-spin {
