@@ -84,10 +84,6 @@
   font-size: calc(10px + 1vmin);
 }
 .textarea {
-  overflow-y: scroll;
-  width: 800px;
-  height: 100px;
-  resize: none; 
   background-color: beige; 
 }
 
@@ -98,4 +94,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.taLight{
+  overflow-y: scroll;
+  width: 800px;
+  height: 100px;
+
+}
+.taLight div{
+  font-style: italic;
+}
+.taDark{
+  overflow-y: scroll;
+  width: 800px;
+  height: 100px;
+  resize:none;
 }
